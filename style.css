@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background: #202020;
+    color: #f5f4f0;
+}
+
+#score-container {
+    text-align: center;
+}
+
+button {
+    margin: 0.4rem;
+    padding: 1rem;
+    min-width: 10vw;
+    background: #444444;
+    color: #f5f4f0;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+@media not all and (hover: none) {
+    button:hover {
+        filter: brightness(1.2);
+    }
+}
+
+#outcome, #button-container {
+    text-align: center;
+}
